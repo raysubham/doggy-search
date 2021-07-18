@@ -1,0 +1,31 @@
+body{
+    background: #43C6AC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F8FFAE, #43C6AC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dog-card .card-image {
+    height: 16em;
+}
+
+.dog-card .image {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.breed {
+    text-transform: capitalize;
+}
+
+.card-content {
+    background: #00c3ff;
+    background: -webkit-linear-gradient(to left, #ffff1c, #00c3ff);
+    background: linear-gradient(to left, #ffff1c, #00c3ff);
+    justify-content: center;
+    display: flex;
+}
